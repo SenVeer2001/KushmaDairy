@@ -1,11 +1,19 @@
+import Categories from "../components/homepage/Categories ";
+import HeroBanner from "../components/homepage/HeroBanner";
+import ProductCarousel from "../components/homepage/Product";
+import Testimonials from "../components/homepage/Testimonial";
 
-import Homepage from "../components/homepage/Homepage";
+
 
 export default function Home() {
   return (
     <div className="">
      
-     <Homepage />
+      <HeroBanner/>
+      <Categories/>
+      <ProductCarousel/>
+      <Testimonials/>
+      
      
     </div>
   );
